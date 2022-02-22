@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    /* padding-top: 30px; */
+    background-color: rgb(226, 226, 226);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* button {
+    padding: 5px;
+} */
+
+section {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 6.5em;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+textarea {
+    padding: 0.3em;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 60px;
+}
+ 
+#capture {
+    position: relative;
+    font-size: 1.5em;
+}
+
+#render {
+    padding: 30px;
+} 
+ 
+/* #show_img {
+    top: 3.5em;
+    left: 3.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 1px solid white;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+} */
+
+#show_img {
+    top: 4.5em;
+    left: 3.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 1px solid white;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+}
+
+.choices {
+    width: 30%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    
+}
+
+.buttons {
+    padding-left: 61%;
+}
+/* 
+.dateTime {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+} */
+
+.desc {
+    font-size: 14px;
+    color: rgb(255, 246, 123);
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+
+.details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* line-height: 75%; */
+    color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    /* top: 73%; */
+    /* left: 1.5em; */
+    /* right: 1.5em; */
+    top: 22%;
+    left: 16em;
+    bottom: 1.5em;
+    text-align: left;
+    line-height: 20%;
+}
+
+.details-sns {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 55%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 19%;
+    left: 60%;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: left;
+    /* padding: 10px; */
+    /* width: 20%; */
+}
+
+.details-landscape {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 73%;
+    /* left: 46%; */
+    /* left: 16.5%; */
+    /* right: 1.5em; */
+    left: 16.5%;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+.date-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 15%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 72%;
+    /* left: 46%; */
+    /* left: 16.5%; */
+    /* right: 1.5em; */
+    left: 39.3%;
+    bottom: 0.5em;
+    text-align: left;
+    width: 50%;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    top: 92%;
+    left: 2em;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    top: 2.5em;
+    left: 2em;
+}
+
+/* for landscape */
+.heading2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    top: 3em;
+    left: 3em;
+}
+
+.info {
+    font-size: 13px;
+    margin: 0;
+    position: absolute;
+    top: 20em;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+.mobile {
+    height: 592px;
+}
+
+.landscape {
+    height: 596px;
+}
+
+.mobile-poster {
+    background-color: darkblue;
+    width: 414px;
+    height: 592px;
+    /* height: 100%; */
+    object-fit: cover; 
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.date, .time {
+    font-size: 14px;
+    width: 85%;
+    line-height: 15px;
+    margin-top: 18px;
+}
+
+.landscape-poster {
+    background-color: darkblue;
+    width: 1278px;
+    height: 596px;
+    object-fit: cover; 
+}
+
+.sns-poster {
+    background-color: darkblue;
+    width: 500px;
+    height: 500px;
+    object-fit: cover; 
+}
+
+/* .slider {
+    position: relative;
+    overflow: hidden;
+} */
+
+.sns {
+    height: 500px;
+    width: 500px;
+}
+
+.sns-content h1 {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 7.5em;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+.sns-content h3 {
+    font-size: 13px;
+    color: rgb(255, 246, 123);
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+.landscape-content h1 {
+    color: white;
+    font-size: 60px;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    /* top: 3.5em; */
+    top: 3em;
+    /* left: 10em; */
+    left: 8.35em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: left;
+}
+
+.landscape-content h3 {
+    font-size: 13px;
+    color: rgb(255, 246, 123);
+    position: absolute;
+    margin: 0;
+    top: 65%;
+    left: 39.3%;
+    /* left: 10em; */
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: left;
+}
+
+.logo {
+    width: 50px;
+    position: absolute;
+    top: 0.5em;
+    left: 85%;
+}
+
+/* For landscape */
+.logo2 {
+    width: 80px;
+    position: absolute;
+    top: 0.8em;
+    left: 92%;
+}
+
+.options {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    width: 18%;
+}
+
+.poster-info {
+    margin-top: 6%; 
+    width: 40%;
+    /* background-color: yellow; */
+}
+
+.input-text {
+    padding-left: 30px;
+    margin: 50px;
+
+}
+
+.title {
+    color: white;
+    line-height: 115%;
+    margin: 0;
+    position: absolute;
+    top: 6.5em;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 0.5em;
+    text-align: center;
+}
