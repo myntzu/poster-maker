@@ -76,6 +76,13 @@ textarea {
     z-index: 3;
 }
 
+#show_bg {  
+    width: 100%;
+    background-size: cover;
+    z-index: 3;
+    background: black;
+}
+
 .choices {
     width: 30%;
     margin: 0;
@@ -136,8 +143,8 @@ textarea {
     color: rgb(255, 255, 255);
     margin: 0;
     position: absolute;
-    top: 19%;
-    left: 60%;
+    top: 55%;
+    left: 65%;
     right: 1.5em;
     bottom: 0.5em;
     text-align: left;
@@ -256,14 +263,23 @@ textarea {
     background-color: darkblue;
     width: 1278px;
     height: 596px;
-    object-fit: cover; 
+    /* object-fit: cover;  */
+    background-size: cover;
 }
 
 .sns-poster {
     background-color: darkblue;
     width: 500px;
     height: 500px;
-    object-fit: cover; 
+    /* object-fit: cover;  */
+    background-size: cover;
+}
+
+.testimonial-poster {
+    background-color: darkblue;
+    width: auto;
+    height: 400px;
+    background-size: cover;
 }
 
 /* .slider {
@@ -349,17 +365,18 @@ textarea {
     flex-direction: row;
     padding-bottom: 30px;
     justify-content: space-around;
-    width: 18%;
+    /* width: 18%; */
+    width: 38%;      
 }
 
 .poster-info {
     margin-top: 6%; 
     width: 40%;
     /* background-color: yellow; */
-}
+} 
 
 .input-text {
-    padding-left: 30px;
+    /* padding-left: 30px; */
     margin: 50px;
 
 }
