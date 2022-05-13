@@ -1,7 +1,9 @@
 # Automated Poster Generator System
 *This project was developed as part of my contributions made during my internship at goSMAC Sdn. Bhd.*
 
-Note: (name)-poster.php represents Webinar Poster layouts while (name)-poster1.php represents Business Poster layouts. In order to capture and render the poster canvas, the external html2canvas.js library was imported into this project for this purpose.
+Note: 
+  - (name)-poster.php represents Webinar Poster layouts while (name)-poster1.php represents Business Poster layouts. 
+  - The external JS library (html2canvas.js) was imported to render and capture poster as a canvas.
 
 ## The Problem:
 In order to promote events and webinar sessions that are regularly hosted by the organization, members from the marketing team and administrative department are required to go through the tedious process of manually creating posters for those upcoming events. This involves them having to search for background images and design layouts that are appropriate for various sizes (i.e. desktop-view, mobile-view and social media).
